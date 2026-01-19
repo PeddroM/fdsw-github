@@ -76,7 +76,17 @@ body {
   font-weight: 700;
   color: #373a3c;
 }
+.btn-email{
+  background-color: transparent;
+  color: black;
+  border: 2px solid blueviolet;
+}
 
+.btn-email:hover{
+  background-color: blueviolet;
+  border: 2px solid blueviolet;
+  color: white;
+}
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
