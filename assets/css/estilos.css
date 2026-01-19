@@ -28,11 +28,47 @@ body {
   background-position: center;
 }
 
-.card-img-top{
-  height: 200px;
-  object-fit: cover;
-  object-position: top;
+.card{
+  height: 100%;
+  display: flex;
+ flex-direction: column;
 }
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-body .btn{
+  margin-top: auto;
+}
+.btn-outline-cv{
+  border: 2px solid blueviolet;
+  color: white;
+}
+.btn-outline-cv:hover{
+  background-color: blueviolet;
+}
+.btn-contact{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+
+.btn-outline{
+  background-color: transparent;
+  color: black;
+  border: 2px solid blueviolet;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+
 
 /* Contacto */
 
